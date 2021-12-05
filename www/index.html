@@ -19,86 +19,125 @@
               <li><a href="#">FAQ</a></li>
             </ul>
           </nav>
+          <button class="burger">menu</button>
         </div>
       </div>
     </header>
 
     <main>
       <section class="about">
+        <div class="about-fade">
         <div class="about-inner">
           <div class="about-wrap">
-            <div class="about-content">
+
               <h1 class="about-title">
                 Индивидуальный пошив галсутков-бабочек
               </h1>
-              <a href="#order" class="btn">Заказать бабочку</a>
-            </div>
+              <a href="#" class="btn">Заказать бабочку</a>
+
           </div>
         </div>
+      </div>
       </section>
 
       <section class="services">
+
         <div class="services-inner">
+
           <h2 class="services-title">Наши работы</h2>
 
-          <div class="services-list">
-            <div class="services-item">
-              <p class="img-types-butt">Бабочка такая</p>
-            </div>
+          <div class="services-visual">
 
-            <div class="services-item">
-              <p class="img-types-butt">Бабочка растакая</p>
-            </div>
+<figure class="services-figure">
+<img src="images/services-pic-one.jpg" alt="" class="services-images">
+<figcaption class="services-desk">
+  Бабочка такая
+</figcaption>
+</figure>
 
-            <div class="services-item">
-              <p class="img-types-butt">Бабочка сякая</p>
-            </div>
+<figure class="services-figure">
+  <img src="images/services-pic-two.jpg" alt="" class="services-images">
+  <figcaption class="services-desk">
+    Бабочка растакая
+  </figcaption>
+ </figure>
 
-            <div class="services-item">
-              <p class="img-types-butt">Кривая</p>
-            </div>
+<figure class="services-figure">
+    <img src="images/services-pic-three.jpg" alt="" class="services-images">
+    <figcaption class="services-desk">
+      Бабочка сякая
+    </figcaption>
+</figure>
+
+ <figure class="services-figure">
+      <img src="images/services-pic-four.jpg" alt="" class="services-images">
+      <figcaption class="services-desk">
+        Кривая
+      </figcaption>
+ </figure>
+
+    </div>
+
+
+<div class="btn-types-butt">
             <a href="#" class="btn-types-butt">Все бабочки</a>
           </div>
-        </div>
       </section>
 
       <section class="order" id="order">
-        <h2 class="order-title">Закажи пошив</h2>
-        <p class="order-text">
-          Заполните форму - наш мастер свяжется с вами, согласует удобное время
-          для встречи. На встрече он снимет мерки и поможет обределиться с
-          тканью.
-        </p>
+        <div class="order-inner">
 
-        <!-- Форма для заполнения: ФИО, тел, кнопка "Заказать" -->
+          <h2 class="order-title">Закажи пошив</h2>
+          <p class="order-text">Заполните форму - наш мастер свяжется с вами, согласует удобное время для встречи. На встрече он снимет мерки и
+            поможет обределиться с тканью.</p>
+
+          <form action="#" class="form">
+
+            <div class="form-field">
+              <label for="name" class="form-label">Ваше имя</label>
+              <input id="name" type="text" class="form-input">
+        </div>
+
+        <div class="form-field">
+          <label for="phone" class="form-label">Телефон</label>
+          <input id="phone" type="text" class="form-input">
+        </div>
+
+  <div class="form-field">
+            <button type="submit" class="btn">Заказать</button>
+          </div>
+
+        </form>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="footer-inner">
+        <div class="footer-wrap">
         <p class="logo">Butterfly</p>
-        <a href="" class="tel">+7 812 800-80-80</a>
+        <a href="tel: +78128008080" class="tel">+7 812 800-80-80</a>
 
         <ul class="social">
           <li class="social-items">
-            <a href="" class="social-link">
+            <a href="" class="social-link" style="background-image: url(icons/instagram.svg)">
               <span class="socials-text">наш аккаунт в инстаграм</span>
             </a>
           </li>
 
           <li class="social-items">
-            <a href="" class="social-link">
+            <a href="" class="social-link" style="background-image: url(icons/facebook.svg)">
               <span class="socials-text">наш аккаунт в facebook</span>
             </a>
           </li>
 
           <li class="social-items">
-            <a href="" class="social-link">
+            <a href="" class="social-link" style="background-image: url(icons/twitter.svg)">
               <span class="socials-text">наш аккаунт в твиттере</span>
             </a>
           </li>
         </ul>
       </div>
+    </div>
     </footer>
 
     <script src="scripts/script.js"></script>
