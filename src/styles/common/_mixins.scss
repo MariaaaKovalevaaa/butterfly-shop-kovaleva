@@ -1,0 +1,27 @@
+@mixin container($width: 1278px) {
+  max-width: $width + $indent-gap-half;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+@mixin section-title {
+  margin: 0;
+  font-family: $font-open;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+  color: $color-dark;
+
+  @media (max-width: $max-tablet) {
+    font-size: 60px;
+    line-height: 82px;
+  }
+
+  @media (max-width: $max-mobile) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+
+}

@@ -1,0 +1,12 @@
+.catalog {
+  padding-top: 240px;
+  text-align: center;
+}
+
+.catalog-inner {
+  @include container
+}
+
+.catalog-title {
+  @include section-title
+}

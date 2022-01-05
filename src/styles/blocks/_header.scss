@@ -1,0 +1,36 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: $color-dark;
+  color: $color-text-light;
+}
+
+.header-inner {
+  @include container;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
+
+
+.burger {
+  display: none;
+  font-size: 0px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: $color-dark;
+
+  @media (max-width: $max-mobile) {
+    display: block;
+    margin: 20px 16px 20px auto;
+  }
+}
+
+
+

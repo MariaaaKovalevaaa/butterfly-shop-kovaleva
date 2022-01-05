@@ -1,0 +1,37 @@
+.faq {
+  padding-top: 240px;
+  padding-bottom: 130px;
+
+  @media (max-width: $max-tablet) {
+    padding-top: 230px;
+    padding-bottom: 120px;
+
+  }
+
+  @media (max-width: $max-mobile) {
+    padding-top: 200px;
+    padding-bottom: 90px;
+
+  }
+
+
+}
+
+.faq-inner {
+  @include container;
+}
+
+.faq-title {
+  @include section-title;
+  margin-bottom: 80px;
+
+  @media (max-width: $max-tablet) {
+    margin-bottom: 70px;
+
+  }
+
+  @media (max-width: $max-mobile) {
+    margin-bottom: 50px;
+
+  }
+}

@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Butterfly</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-wrap">
+        <a href="index.html" class="logo">Butterfly</a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-item"><a class="main-nav-link active" href="catalog.html">Каталог</a></li>
+            <li class="main-nav-item"><a class="main-nav-link" href="reviews.html">Отзывы</a></li>
+            <li class="main-nav-item"><a class="main-nav-link" href="contacts.html">Контакты</a></li>
+            <li class="main-nav-item"><a class="main-nav-link" href="faq.html">FAQ</a></li>
+          </ul>
+        </nav>
+        <button class="burger" style="background-image: url(images/hamburger-menu.png);">menu</button>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+
+    <section class="catalog">
+      <div class="catalog-inner">
+        <h2 class="catalog-title">Наши работы</h2>
+
+        <ul class="filter">
+          <li class="filter-item">
+            <a href="#" class="filter-link active" data-filter="all">Все</a>
+          </li>
+          <li class="filter-item">
+            <a href="#" class="filter-link" data-filter="strict">Строгие</a>
+          </li>
+          <li class="filter-item">
+            <a href="#" class="filter-link" data-filter="fun">Весёлые</a>
+          </li>
+          <li class="filter-item">
+            <a href="#" class="filter-link" data-filter="pets">Для животных</a>
+          </li>
+          <li class="filter-item">
+            <a href="#" class="filter-link" data-filter="kids">Детские</a>
+          </li>
+          <li class="filter-item">
+            <a href="#" class="filter-link" data-filter="adult">Для взрослых</a>
+          </li>
+        </ul>
+
+        <ul class="catalog-list">
+          <li class="catalog-item" data-type="strict">
+            <figure class="portfolio-figure">
+            <img src="images/one-butterfly.png" alt="Одна бабочка " class="portfolio-image">
+            <figcaption class="portfolio-desc">Бабочка такая</figcaption>
+          </figure>
+        </li>
+          <li class="catalog-item" data-type="strict">
+            <figure class="portfolio-figure">
+            <img src="images/two-butterfly.jpg" alt="Две бабочки" class="portfolio-image">
+            <figcaption class="portfolio-desc">Бабочка растакая</figcaption>
+          </figure>
+        </li>
+          <li class="catalog-item" data-type="adult">
+            <figure class="portfolio-figure">
+            <img src="images/men-butterfly.png" alt="Мужская бабочка" class="portfolio-image">
+            <figcaption class="portfolio-desc">Бабочка сякая</figcaption>
+          </figure>
+        </li>
+          <li class="catalog-item" data-type="pets">
+            <figure class="portfolio-figure">
+            <img src="images/cat-butterfly.png" alt="Кошачья бабочка" class="portfolio-image">
+            <figcaption class="portfolio-desc">Кривая</figcaption>
+          </figure>
+        </li>
+          <li class="catalog-item" data-type="adult">
+            <figure class="portfolio-figure">
+            <img src="images/btfly-5.png" alt="" class="portfolio-image">
+            <figcaption class="portfolio-desc">Бабочка такая</figcaption>
+          </figure>
+        </li>
+          <li class="catalog-item" data-type="adult">
+            <figure class="portfolio-figure">
+            <img src="images/btfly-6.png" alt="" class="portfolio-image">
+            <figcaption class="portfolio-desc">Бабочка растакая</figcaption>
+          </figure>
+        </li>
+          <li class="catalog-item" data-type="kids">
+            <figure class="portfolio-figure">
+            <img src="images/btfly-7.png" alt="" class="portfolio-image">
+            <figcaption class="portfolio-desc">Бабочка сякая</figcaption>
+          </figure>
+        </li>
+          <li class="catalog-item" data-type="adult">
+            <figure class="portfolio-figure">
+            <img src="images/btfly-8.png" alt="" class="portfolio-image">
+            <figcaption class="portfolio-desc">Кривая</figcaption>
+          </figure>
+        </li>
+          <li class="catalog-item" data-type="strict">
+            <figure class="portfolio-figure">
+            <img src="images/btfly-9.png" alt="" class="portfolio-image">
+            <figcaption class="portfolio-desc">Бабочка такая</figcaption>
+          </figure>
+        </li>
+          <li class="catalog-item" data-type="strict">
+            <figure class="portfolio-figure">
+            <img src="images/btfly-10.png" alt="" class="portfolio-image">
+            <figcaption class="portfolio-desc">Бабочка растакая</figcaption>
+          </figure>
+        </li>
+          <li class="catalog-item" data-type="fun">
+            <figure class="portfolio-figure">
+            <img src="images/btfly-11.png" alt="" class="portfolio-image">
+            <figcaption class="portfolio-desc">Бабочка сякая</figcaption>
+          </figure>
+        </li>
+          <li class="catalog-item" data-type="fun">
+            <figure class="portfolio-figure">
+            <img src="images/btfly-12.png" alt="" class="portfolio-image">
+            <figcaption class="portfolio-desc">Кривая</figcaption>
+          </figure>
+        </li>
+        </ul>
+
+      <button class="btn j-catalog-btn">Больше бабочек</button>
+      </div>
+    </section>
+
+    <section class="order">
+      <div class="order-inner">
+        <h2 class="order-title">Закажи пошив</h2>
+        <p class="order-text">Заполните форму - наш мастер свяжется с вами, согласует удобное время для встречи. На встрече он снимет мерки и
+          поможет обределиться с тканью.</p>
+        <form action="#" class="form">
+          <div class="form-field form-field-half">
+            <label for="name" class="form-label">Ваше имя</label>
+            <input id="name" type="text" class="form-input">
+          </div>
+          <div class="form-field form-field-half">
+            <label for="phone" class="form-label">Телефон</label>
+            <input id="phone" type="text" class="form-input">
+          </div>
+          <div class="form-field form-field-third">
+            <button type="submit" class="btn btn-form">Заказать</button>
+          </div>
+        </form>
+      </div>
+
+
+    </section>
+  </main>
+
+
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-wrap">
+        <a href="#" class="logo">Butterfly</a>
+        <a href="tel: +78008000000" class="phone">+7 812 800-80-80</a>
+        <ul class="social">
+          <li class="social-item">
+            <a href="#" class="social-link" style="background-image: url(images/icon-instagram.svg);">
+              <span class="social-text">Наш аккаунт в Инстаграмм</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link" style="background-image: url(images/icon-facebook.svg);">
+              <span class="social-text">Наш аккаунт в Facebook</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link" style="background-image: url(images/icon-telegram.svg);">
+              <span class="social-text">Наш аккаунт в Telegram</span>
+            </a>
+          </li>
+      </div>
+    </div>
+
+  </footer>
+  <script src="scripts/jquery-3.6.0.min.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>

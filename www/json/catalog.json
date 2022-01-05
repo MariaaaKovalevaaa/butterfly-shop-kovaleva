@@ -1,0 +1,29 @@
+{
+  "butterflys": [
+    {
+      "imageUrl": "images/one-butterfly.png",
+      "imageAlt": "Одна бабочка",
+      "text": "Бабочка такая"
+
+    },
+    {
+      "imageUrl": "images/two-butterfly.jpg",
+      "imageAlt": "Две бабочки",
+      "text": "Бабочка растакая"
+
+    },
+    {
+      "imageUrl": "images/men-butterfly.png",
+      "imageAlt": "Мужская бабочка",
+      "text": "Бабочка сякая"
+
+    },
+    {
+      "imageUrl": "images/cat-butterfly.png",
+      "imageAlt": "Кривая",
+      "text": "Бабочка такая"
+
+    }
+
+  ]
+}

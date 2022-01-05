@@ -15,8 +15,8 @@
         <a href="index.html" class="logo">Butterfly</a>
         <nav class="main-nav">
           <ul class="main-nav-list">
-            <li class="main-nav-item"><a class="main-nav-link active" href="catalog.html">Каталог</a></li>
-            <li class="main-nav-item"><a class="main-nav-link" href="reviews.html">Отзывы</a></li>
+            <li class="main-nav-item"><a class="main-nav-link" href="catalog.html">Каталог</a></li>
+            <li class="main-nav-item"><a class="main-nav-link active" href="reviews.html">Отзывы</a></li>
             <li class="main-nav-item"><a class="main-nav-link" href="contacts.html">Контакты</a></li>
             <li class="main-nav-item"><a class="main-nav-link" href="faq.html">FAQ</a></li>
           </ul>
@@ -28,41 +28,54 @@
   </header>
 
   <main>
-    <section class="promo">
-      <div class="promo-fade">
-        <div class="promo-inner">
-          <h1 class="promo-title">Индивидуальный пошив галстуков-бабочек</h1>
-          <a href="#" class="btn">Заказать бабочку</a>
+
+    <section class="reviews">
+      <div class="reviews-inner">
+        <h1 class="reviews-title">Отзывы</h1>
+
+        <div class="reviews-wrap">
+          <div class="reviews-slider">
+            <div class="reviews-ava">
+              <img src="../images/review-lidia.png" alt="Фото Лидии" class="reviews-photo">
+            </div>
+            <div class="reviews-content">
+              <span class="review-name">Лидия Ивановна</span>
+              <blockquote class="review-quote">
+                Пацаны красавчики! Быстро и аккуратно починили мой лододос!
+              А так же вынесли за собой весь мусор! Еще и в шапке ходют - ван лав!
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="reviews-slider">
+            <div class="reviews-ava">
+              <img src="../images/review-irina.png" alt="Фото Ирины" class="reviews-photo">
+            </div>
+            <div class="reviews-content">
+              <span class="review-name">Ирина</span>
+              <blockquote class="review-quote">
+                Всем вам доброго времени суток, дорогие мои! Я обожаю галстуки-бабочки! Мужские не покупаю, а люблю, всё-таки, женские, которые выглядят как унисекс.
+              </blockquote>
+            </div>
+          </div>
+          <div class="reviews-slider">
+            <div class="reviews-ava">
+              <img src="../images/review-valdemar.png" alt="Фото Вальдемара" class="reviews-photo">
+            </div>
+            <div class="reviews-content">
+              <span class="review-name">Вальдемар</span>
+              <blockquote class="review-quote">
+                Ну, что можно сказать, али экспресс как всегда радует, искал очень долго красивую бабочку к рубашке, но, увы, везде они стоят минимум рублей 500, но я обратился к проверенному али экспресс, и он, как вообщем и всегда, не подвёл.
+              </blockquote>
+            </div>
+          </div>
+
         </div>
       </div>
-
     </section>
 
-    <section class="portfolio">
-      <div class="portfolio-inner">
-        <h2 class="portfolio-title">Наши работы</h2>
-        <div class="portfolio-visual">
-          <figure class="portfolio-figure">
-            <img src="images/one-butterfly.png" alt="одна синяя галстук-бабочка" class="portfolio-image">
-            <figcaption class="portfolio-desc">Бабочка такая</figcaption>
-          </figure>
-          <figure class="portfolio-figure">
-            <img src="images/two-butterfly.jpg" alt="две синие галстук-бабочки" class="portfolio-image">
-            <figcaption class="portfolio-desc">Бабочка растакая</figcaption>
-          </figure>
-          <figure class="portfolio-figure">
-            <img src="images/men-butterfly.png" alt="мужчина в галстук-бабочке" class="portfolio-image">
-            <figcaption class="portfolio-desc">Бабочка сякая</figcaption>
-          </figure>
-          <figure class="portfolio-figure">
-            <img src="images/cat-butterfly.png" alt="кот в галстук-бабочке" class="portfolio-image">
-            <figcaption class="portfolio-desc">Кривая</figcaption>
-          </figure>
-        </div>
 
-      <a href="#" class="btn">Все бабочки</a>
-      </div>
-    </section>
+
 
     <section class="order">
       <div class="order-inner">
@@ -116,6 +129,7 @@
 
   </footer>
   <script src="scripts/jquery-3.6.0.min.js"></script>
+  <script src="scripts/slick.min.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 

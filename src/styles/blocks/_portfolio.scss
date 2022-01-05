@@ -1,0 +1,93 @@
+.portfolio {
+  padding: 130px 0;
+  text-align: center;
+
+  @media (max-width: $max-tablet) {
+    padding: 120px 0;
+  }
+
+  @media (max-width: $max-mobile) {
+    padding: 90px 0;
+  }
+
+}
+
+.portfolio-inner {
+  @include container
+}
+
+.portfolio-title {
+  @include section-title
+}
+
+.portfolio-visual {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 120px;
+
+  @media (max-width: $max-tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px 0;
+
+  }
+
+  @media (max-width: $max-mobile) {
+    display: block;
+    margin: 60px 0;
+
+  }
+
+
+}
+
+
+.portfolio-figure {
+  flex-basis: 50%;
+  position: relative;
+  margin: 0 10px;
+
+  @media (max-width: $max-tablet) {
+    flex-basis: 50%;
+    margin: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+  }
+
+
+  @media (max-width: $max-mobile) {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px
+
+
+
+  }
+
+}
+
+
+.portfolio-desc {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 24px;
+  line-height: 33px;
+  background-color: rgba($color-dark, .4);
+  color: $color-text-light;
+
+  @media (max-width: $max-tablet) {
+    padding: 20px 0;
+  }
+
+  @media (max-width: $max-mobile) {
+    padding: 20px 0;
+  }
+
+
+}
+

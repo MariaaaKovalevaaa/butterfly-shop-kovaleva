@@ -1,4 +1,63 @@
 .footer {
-  color: $color-light;
+  padding: 31px 0;
+  color: $color-text-light;
   background-color: $color-dark;
+
+  @media (max-width: $max-mobile) {
+  padding-bottom: 35px;
+  }
+}
+
+.footer-inner {
+  @include container
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: $max-mobile) {
+    flex-direction: column;
+  }
+}
+
+.phone {
+  margin-right: 45px;
+  font-size: 28px;
+  line-height: 38px;
+  text-decoration: none;
+  color: inherit;
+
+  @media (max-width: $max-tablet) {
+    margin-right: 35px;
+  }
+
+  @media (max-width: $max-mobile) {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+}
+
+.social {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+.social-link {
+  display: block;
+  margin-left: 15px;
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.social-text {
+  opacity: 0;
+  font-size: 1px;
 }

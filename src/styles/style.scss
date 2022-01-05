@@ -1,7 +1,29 @@
 // common files
 @import "common/_variables";
 @import "common/_fonts";
+@import "common/_mixins";
+@import "common/_common";
 @import "common/_typography";
 
+// plugins
+@import "plugins/slick.scss";
+
+
 // blocks
+@import "blocks/_header.scss";
+@import "blocks/_logo";
+@import "blocks/_main-nav";
 @import "blocks/_promo";
+@import "blocks/_btn.scss";
+@import "blocks/_portfolio";
+@import "blocks/_catalog";
+@import "blocks/_filter";
+@import "blocks/_order.scss";
+@import "blocks/_contacts.scss";
+@import "blocks/_tabs";
+@import "blocks/_form";
+@import "blocks/_footer.scss";
+@import "blocks/_faq";
+@import "blocks/_accordeon";
+@import "blocks/_reviews.scss";
+@import "blocks/_slider.scss";
